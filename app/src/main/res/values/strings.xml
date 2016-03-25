@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FirstCode</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_intent_demo">IntentDemoActivity</string>
+    <string name="title_activity_intent_test02">IntentTest02Activity</string>
+    <string name="title_activity_lifecycle_demo">LifecycleDemoActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="eg_game_androidtestcase">测试案例重要性, 改动任何一个功能或者添加一个功能，很可能影响到其它功能模块的功能.这时就需要用到测试案例.我觉得这里使用自动化集成工具更靠谱(Jenkins).在较大的项目中每一次有人提交代码,自动化工具去自动编译调用测试案例.这些事我对测试和自动化工具的理解</string>
+</resources>

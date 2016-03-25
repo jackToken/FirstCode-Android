@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/eg_game_webview_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WebView基本用法"
+                />
+
+            <Button
+                android:id="@+id/eg_game_httpurlconnection_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GET Request Use"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_httpurlconnection_tv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Http Request get"
+                />
+
+            <Button
+                android:id="@+id/eg_game_httpurlconnection_post_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post Request use"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_httpurlconnection_post_tv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Post and Param"
+                />
+
+            <Button
+                android:id="@+id/eg_game_httpclient_get_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HttpClient(get)"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_httpclient_get_tv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="HttpClient(get data)"
+                />
+
+            <Button
+                android:id="@+id/eg_game_httpclient_post_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HttpClient(post)"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_httpclient_post_tv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="HttpClient(get data)"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="XML解析方式（SAX PULL DOM）"
+                />
+
+            <Button
+                android:id="@+id/eg_game_pull_xml_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PULL解析XML"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_pull_xml_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Pull解析XML result"
+                />
+
+            <Button
+                android:id="@+id/eg_game_sax_xml_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SAX解析XML"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_sax_xml_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="SAX解析XML result"
+                />
+
+            <Button
+                android:id="@+id/eg_game_jsonobject_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JsonObject解析json"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_jsonobject_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="json parser result"
+                />
+
+            <Button
+                android:id="@+id/eg_game_gson_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gson parser json"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_gson_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="gson parser result"
+                />
+
+            <Button
+                android:id="@+id/eg_game_network_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="编写NetWork工具"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

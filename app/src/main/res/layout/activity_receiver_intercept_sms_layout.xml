@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/eg_game_receiver_intercept_sms_address_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address"
+        />
+
+    <TextView
+        android:id="@+id/eg_game_receiver_intercept_sms_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="content"
+        />
+
+    <Button
+        android:id="@+id/eg_game_media_send_sms_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send sms"
+        />
+
+</LinearLayout>

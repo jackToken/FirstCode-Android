@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/eg_game_serializable_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Serializable"
+        />
+
+    <Button
+        android:id="@+id/eg_game_request_network_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request network"
+        />
+
+    <TextView
+        android:id="@+id/eg_game_request_network_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="json content"
+        />
+
+    <Button
+        android:id="@+id/eg_game_android_test_case_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AndroidTestCase"
+        />
+
+    <TextView
+        android:id="@+id/eg_game_android_test_case_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="AndroidTestCase"
+        />
+
+</LinearLayout>

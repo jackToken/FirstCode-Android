@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="隐式Intent应用"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/eg_name_intent_tv"
+        android:text="intent get Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/eg_game_btn_intent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式Intent_1"
+        />
+
+    <Button
+        android:id="@+id/eg_game_btn_intent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式Intent_2"
+        />
+
+    <Button
+        android:id="@+id/eg_game_btn_intent3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent携带数据返回上一个Activity"
+        />
+
+    <Button
+        android:id="@+id/eg_game_btn_intent4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Resolve Activity"
+        />
+</LinearLayout>

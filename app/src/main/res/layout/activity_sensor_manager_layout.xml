@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/eg_game_light_sensor_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Light Sensor"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_light_sensor_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Show Light Sensor"
+                />
+
+            <Button
+                android:id="@+id/eg_game_accelerometer_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Accelerometer Sensor"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_accelerometer_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Accelerometer"
+                />
+
+            <Button
+                android:id="@+id/eg_game_compass_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="启动指南针"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/eg_game_compass"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/eg_game_compass_arrow_iv"
+                    android:layout_width="60dp"
+                    android:layout_height="110dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/eg_game_arrow"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

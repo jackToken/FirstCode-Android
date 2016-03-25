@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.firstcode.test" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.firstcode.app.FirstCodeApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.firstcode.activity.FirstCodeDemoActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.firstcode.activity.intent.IntentDemoActivity" >
+        </activity>
+        <activity android:name="com.firstcode.activity.intent.IntentTest01Activity" >
+            <intent-filter>
+                <action android:name="android.eg.game.action.INTENT01" />
+
+                <category android:name="android.eg.game.category.INTENT01TEST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.firstcode.activity.intent.IntentTest02Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.firstcode.activity.lifecycle.LifecycleDemoActivity"
+            android:label="@string/title_activity_lifecycle_demo" >
+        </activity>
+        <activity
+            android:name="com.firstcode.activity.base.BaseActivity"
+            android:label="@string/title_activity_base" >
+        </activity>
+
+        <activity android:name="com.firstcode.activity.dialog.DialogDemoActivity"/>
+        <activity android:name="com.firstcode.activity.listview.BaseListviewActivity"/>
+        <activity android:name="com.firstcode.activity.listview.ShowDataListviewActivity"/>
+        <activity android:name="com.firstcode.activity.listview.ListViewTalkActivity"/>
+        <activity android:name="com.firstcode.activity.frag.FragmentDemoActivity"/>
+        <activity android:name="com.firstcode.activity.frag.EasyFragmentActivity"/>
+        <activity android:name="com.firstcode.activity.frag.TabFragmentActivity" />
+        <activity android:name="com.firstcode.activity.receiver.BroadcastReceiverDemoActivity"/>
+        <activity android:name="com.firstcode.activity.intent.ResolveIntentActivity"/>
+        <activity android:name="com.firstcode.activity.receiver.LoginBroadcastReceiverActivity"/>
+        <activity android:name="com.firstcode.activity.storage.FileOperatorActivity"/>
+        <activity android:name="com.firstcode.activity.pro.EGContentProviderActivity"/>
+        <activity android:name="com.firstcode.activity.pro.ContentProviderListActivity"/>
+        <activity android:name="com.firstcode.activity.media.MediaActivity"/>
+        <activity android:name="com.firstcode.activity.media.NotificationActivity"/>
+        <activity android:name="com.firstcode.activity.media.SoundAndVibrateActivity"/>
+        <activity android:name="com.firstcode.activity.media.SendAndReceiverSmsActivity"/>
+        <activity android:name="com.firstcode.activity.media.ReceiverActivity"/>
+        <activity android:name="com.firstcode.activity.media.ReceiverAndInterceptSmsActivity"/>
+        <activity android:name="com.firstcode.activity.service.ServiceMultiThreadingActivity"/>
+        <activity android:name="com.firstcode.activity.network.NetWorkActivity"/>
+        <activity android:name="com.firstcode.activity.network.WebViewShowActivity"/>
+        <activity android:name="com.firstcode.activity.lbs.LocationBaseServiceActivity"/>
+        <activity android:name="com.firstcode.activity.lbs.LBSBMapActivity"/>
+        <activity android:name="com.firstcode.activity.sensor.SensorManagerActivity"/>
+        <activity android:name="com.firstcode.activity.advanceuse.AdvanceActivity"/>
+
+        <receiver android:name="com.firstcode.receiver.BootCompletedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.firstcode.receiver.StandardBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.firstcode.test.STANDARDBROADCASTRECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.firstcode.receiver.Order01BroadcastReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="com.firstcode.test.ORDERBROADCASRRECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.firstcode.receiver.Ordered02BroadcastReceiver">
+            <intent-filter android:priority="100">
+                <action android:name="com.firstcode.test.ORDERBROADCASRRECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.firstcode.receiver.Ordered03BroadcasrReceiver">
+            <intent-filter android:priority="10000">
+                <action android:name="com.firstcode.test.ORDERED_ABORT_BROADCAST_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.firstcode.receiver.Ordered04BroadcastReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="com.firstcode.test.ORDERED_ABORT_BROADCAST_RECEIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.firstcode.receiver.ApplicationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.firstcode.test.FLAG_APPLICATION_CLOSE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.firstcode.service.ServiceBroadcastReceiver"/>
+
+        <provider
+            android:name="com.firstcode.provider.EGGameContentProvider"
+            android:authorities="com.firstcode.test.provider"
+            />
+
+        <service android:name="com.firstcode.service.GameStaticOneService"/>
+        <service android:name="com.firstcode.service.BindDemoService"/>
+        <service android:name="com.firstcode.service.NotificationDemoService"/>
+        <service android:name="com.firstcode.service.StandardService"/>
+        <service android:name="com.firstcode.service.ChildThreadTaskIntentService"/>
+        <service android:name="com.firstcode.service.BackgroundService"/>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="mUYvGM6gkXdjGCY8UwGlueHj7vMzcBGz" />
+
+    </application>
+</manifest>

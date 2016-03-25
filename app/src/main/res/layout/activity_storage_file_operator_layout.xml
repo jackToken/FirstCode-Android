@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:id="@+id/eg_game_file_operator_data_input_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="please input your data"
+                />
+
+            <Button
+                android:id="@+id/eg_game_file_operator_data_stream_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="android stream"
+                />
+
+            <Button
+                android:id="@+id/eg_game_sp_test_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SharedPreferences"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <EditText
+                    android:id="@+id/eg_game_login_account_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:hint="please input your account"
+                    />
+
+                <EditText
+                    android:id="@+id/eg_game_login_password_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:inputType="textPassword"
+                    android:hint="please input your password"
+                    />
+                <CheckBox
+                    android:id="@+id/eg_game_login_cb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="save account and password"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Operator"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:id="@+id/eg_game_sqliteopenhelper_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sqlite operator(SqliteOpenHelper)"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_sqliteopenhelper_insert_data_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="insert data to table book"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_sqliteopenhelper_update_data_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="update book data"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_sqliteopenhelper_delete_data_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="delete book data"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_sqliteopenhelper_query_data_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="query data from book"
+                    />
+
+                <TextView
+                    android:id="@+id/eg_game_sqliteopenhelper_query_data_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="data"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/eg_game_execSQL_insert_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="execSQL insert"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_execSQL_update_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="exeSQL update"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_raw_query_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="rawQuery"
+                    />
+
+                <TextView
+                    android:id="@+id/eg_game_raw_query_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RawQuery data"
+                    />
+                <Button
+                    android:id="@+id/eg_game_execSQL_delete_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="execSQL delete"
+                    />
+             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <Button
+                    android:id="@+id/eg_game_transaction_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="transaction"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_sqliteopenhelper_onupgrade_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="onUpgrade demo"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

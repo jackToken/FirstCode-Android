@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity LifeCycle"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <Button
+        android:id="@+id/eg_game_lifecycle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kill this myPid"
+        />
+
+    <ProgressBar
+        android:id="@+id/eg_game_pro_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:max="100"
+        />
+
+</LinearLayout>

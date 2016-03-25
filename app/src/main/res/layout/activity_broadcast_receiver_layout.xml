@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/eg_game_broadcast_receiver_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dynamic register BroadcastReceiver"
+        />
+
+    <Button
+        android:id="@+id/eg_game_broadcast_receiver_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NetWork state"
+        />
+
+    <Button
+        android:id="@+id/eg_game_broadcast_receiver_standard_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send broadcast receiver"
+        />
+
+    <Button
+        android:id="@+id/eg_game_broadcast_receiver_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order BroadcastReceiver"
+        />
+
+    <Button
+        android:id="@+id/eg_game_broadcast_receiver_order_abort_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order BroadcastReceiver Abort"
+        />
+
+    <Button
+        android:id="@+id/eg_game_broadcast_receiver_local_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local BroadcastReceiver"
+        />
+
+    <Button
+        android:id="@+id/eg_game_broadcast_receiver_demo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用BroadcastReceiver实现强制下线功能"
+        />
+</LinearLayout>

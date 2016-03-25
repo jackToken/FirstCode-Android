@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.firstcode.widget.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+    </com.firstcode.widget.TitleLayout>
+
+    <TextView
+        android:id="@+id/eg_game_verion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:text="FirstCodeDemoActivity"
+        android:gravity="center"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/eg_game_diplay_dpi"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/eg_game_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test" />
+
+            <Button
+                android:id="@+id/eg_game_intent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intent Test"
+                />
+
+            <Button
+                android:id="@+id/eg_game_activity_lifecycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity Lifecycle"
+                />
+
+            <Button
+                android:id="@+id/eg_game_activity_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DialogTest"
+                />
+
+            <Button
+                android:id="@+id/eg_game_activity_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ListViewTest"
+                />
+
+            <Button
+                android:id="@+id/eg_game_activity_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FragmentTest"
+                />
+
+            <Button
+                android:id="@+id/eg_game_broadcast_receiver_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BroadcastReceiver"
+                />
+
+            <Button
+                android:id="@+id/eg_game_file_operator_stream_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="File save style"
+                />
+
+            <Button
+                android:id="@+id/eg_game_content_provider_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ContentProviderDemo"
+                />
+
+            <Button
+                android:id="@+id/eg_game_media_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Media Demo"
+                />
+
+            <Button
+                android:id="@+id/eg_game_send_and_receiver_sms_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send and Receiver SMS"
+                />
+
+            <Button
+                android:id="@+id/eg_game_service_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Demo"
+                />
+
+            <Button
+                android:id="@+id/eg_game_network_coding_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Network coding"
+                />
+
+            <Button
+                android:id="@+id/eg_game_lbs_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location Base Service"
+                />
+
+            <Button
+                android:id="@+id/eg_game_sensor_manager_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senor Manager(Demo)"
+                />
+
+            <Button
+                android:id="@+id/eg_game_advance_use_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Advance use"
+                />
+
+            <TextView
+                android:id="@+id/eg_game_assets_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assets dir"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

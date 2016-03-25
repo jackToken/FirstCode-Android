@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\FirstCode\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\classes-f639528630e500b2ed859105797e99664453062d.jar" />
+    </item>
+    <item
+        jar="D:\FirstCode\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c501d3a9a8d2ff6598f39654d6b6091bb508b715">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-fd52a27697482dd7010b42d06da149c50568e70c.jar" />
+    </item>
+    <item
+        jar="D:\FirstCode\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-30eec5ed4e962ec5755cd8c174f4882a186c26f2.jar" />
+    </item>
+    <item
+        jar="D:\FirstCode\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\classes-149452f03ec26e1d0f1af66d67c9e4068a8c69fa.jar" />
+    </item>
+    <item
+        jar="D:\FirstCode\app\libs\IndoorscapeAlbumPlugin.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="877f0b0489306dfd3381a68ed866da78d92348e8">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\IndoorscapeAlbumPlugin-7340a2320b275334a6e78b33880c5b0b69cb4ae0.jar" />
+    </item>
+    <item
+        jar="C:\Users\wangjinliang\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-b8e5b88bbd365959cdee828fade8f6ca0f8fa827.jar" />
+    </item>
+    <item
+        jar="D:\FirstCode\app\libs\httpmime-4.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ed8b5ee0167cb27dea55851259eb34b609f31df0">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\httpmime-4.1.2-59b64c0a97e838e072d1c079aafe7c230d5511b7.jar" />
+    </item>
+    <item
+        jar="D:\FirstCode\app\libs\gson-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7291c9de7f574b15502f73f0ac2ae6d3af36c751">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\gson-1.7.1-7c4bd560b2cc90dc555f7b653a078377b3b2a9c6.jar" />
+    </item>
+    <item
+        jar="D:\FirstCode\app\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="D:\FirstCode\app\build\intermediates\pre-dexed\debug\org.apache.http.legacy-1fc7542a536246e62675d40acf0706e934203331.jar" />
+    </item>
+
+</items>

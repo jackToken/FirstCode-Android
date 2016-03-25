@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/eg_game_multithreading_style_one_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiThreading style one"
+                />
+
+            <Button
+                android:id="@+id/eg_game_multithreading_style_two_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiThreading style two"
+                />
+
+            <Button
+                android:id="@+id/eg_game_multithreading_style_three_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiThreading style three"
+                />
+
+            <Button
+                android:id="@+id/eg_game_service_handler_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="验证本人对Handler的猜想"
+                />
+
+            <Button
+                android:id="@+id/eg_game_asynctask_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AsyncTask Use"
+                />
+
+            <Button
+                android:id="@+id/eg_game_asynctask_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AsyncTack use2"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="service btn"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_service_one_start_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Service start"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_service_one_stop_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Service stop"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_service_two_bind_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Service bind (two)"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_service_two_unbind_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Service unbind (two)"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_service_three_bind_notification_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Service bind(Three) Notification"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_service_three_unbind_notification_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Service unbind(Three) Notification"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/eg_game_standard_service_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Standard Service(做完任务自动停止)"
+                />
+
+            <Button
+                android:id="@+id/eg_game_serviceintent_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IntentService (处理任务)"
+                />
+
+            <Button
+                android:id="@+id/eg_game_service_broadcastreceiver_alarmmanager_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="后台执行的定时任务"
+                />
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

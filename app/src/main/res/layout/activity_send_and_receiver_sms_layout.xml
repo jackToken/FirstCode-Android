@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/eg_game_sms_receiver_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receiver sms"
+        />
+
+    <Button
+        android:id="@+id/eg_game_receiver_intercept_sms_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receiver and intercept SMS"
+        />
+
+    <Button
+        android:id="@+id/eg_game_sms_last_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Demo Last"
+        />
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/eg_game_media_test_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="media just to test"
+                />
+
+            <Button
+                android:id="@+id/eg_game_media_notification_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notification Demo(Builder)"
+                />
+
+            <Button
+                android:id="@+id/eg_game_media_notification_no_builder_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notification Builder(PendingIntent)"
+                />
+
+            <Button
+                android:id="@+id/eg_game_notificaton_sound_vibrate_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notification(Sound and vibrate)"
+                />
+
+            <Button
+                android:id="@+id/eg_game_notification_default_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notification default"
+                />
+
+            <Button
+                android:id="@+id/eg_game_notification_led_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notification LED"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <Button
+                android:id="@+id/eg_game_use_camera_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="camera"
+                />
+
+            <Button
+                android:id="@+id/eg_game_choice_picture_fromalum_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="choice piture from alum"
+                />
+
+            <ImageView
+                android:id="@+id/eg_game_use_camera_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerInside"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_launcher"
+                />
+
+            <ImageView
+                android:id="@+id/eg_game_use_camera_iv2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerInside"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_launcher"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingTop="20dp"
+                android:orientation="vertical"
+                android:background="#642841"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="音频播放器"
+                    />
+
+                <TextView
+                    android:id="@+id/eg_game_mediaplayer_size_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_mediaplayer_start_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="play"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_mediaplayer_pause_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="pause"
+                    />
+
+                <Button
+                    android:id="@+id/eg_game_mediaplayer_stop_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="stop"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingTop="20dp"
+                android:orientation="vertical"
+                android:background="#234235"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="视频播放"
+                    />
+
+                <TextView
+                    android:id="@+id/eg_game_videoview_size_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="time"
+                    />
+
+                <VideoView
+                    android:id="@+id/eg_game_videoview_vv"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:id="@+id/eg_game_videoview_start_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="start"
+                        />
+
+                    <Button
+                        android:id="@+id/eg_game_videoview_pause_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="pause"
+                        />
+
+                    <Button
+                        android:id="@+id/eg_game_videoview_replay_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="replay"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
